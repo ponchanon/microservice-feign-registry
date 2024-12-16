@@ -1,0 +1,64 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaServerApplication<eureka-EurekaServer>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "eureka.EurekaServerApplication",
+            "projectName": "eureka-EurekaServer",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AccountServiceApplication<accounts-AccountService>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "accounts.AccountServiceApplication",
+            "projectName": "accounts-AccountService",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CloudgatewayApplication<com.acme-cloudgateway>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "service.CloudgatewayApplication",
+            "projectName": "com.acme-cloudgateway",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-GradingServiceApplication<com.acme-GradingService>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "service.GradingServiceApplication",
+            "projectName": "com.acme-GradingService",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-StudentServiceApplication<com.acme-StudentService>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "service.StudentServiceApplication",
+            "projectName": "com.acme-StudentService",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CustomerServiceApplication<customer-CustomerService>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "customer.CustomerServiceApplication",
+            "projectName": "customer-CustomerService",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
